@@ -69,7 +69,8 @@ namespace WindowsFormsApp12
             // 
             // FindMoveButton
             // 
-            this.FindMoveButton.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FindMoveButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.FindMoveButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FindMoveButton.Location = new System.Drawing.Point(11, 271);
             this.FindMoveButton.Name = "FindMoveButton";
             this.FindMoveButton.Size = new System.Drawing.Size(166, 41);
@@ -83,7 +84,7 @@ namespace WindowsFormsApp12
             this.Location.AutoSize = true;
             this.Location.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Location.ForeColor = System.Drawing.Color.White;
-            this.Location.Location = new System.Drawing.Point(5, 140);
+            this.Location.Location = new System.Drawing.Point(12, 68);
             this.Location.Name = "Location";
             this.Location.Size = new System.Drawing.Size(70, 19);
             this.Location.TabIndex = 4;
@@ -95,7 +96,7 @@ namespace WindowsFormsApp12
             this.theatername.AutoSize = true;
             this.theatername.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.theatername.ForeColor = System.Drawing.Color.White;
-            this.theatername.Location = new System.Drawing.Point(7, 172);
+            this.theatername.Location = new System.Drawing.Point(12, 123);
             this.theatername.Name = "theatername";
             this.theatername.Size = new System.Drawing.Size(108, 19);
             this.theatername.TabIndex = 5;
@@ -107,7 +108,7 @@ namespace WindowsFormsApp12
             this.Time.AutoSize = true;
             this.Time.Font = new System.Drawing.Font("Microsoft YaHei", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Time.ForeColor = System.Drawing.Color.White;
-            this.Time.Location = new System.Drawing.Point(5, 203);
+            this.Time.Location = new System.Drawing.Point(7, 166);
             this.Time.Name = "Time";
             this.Time.Size = new System.Drawing.Size(58, 24);
             this.Time.TabIndex = 6;
